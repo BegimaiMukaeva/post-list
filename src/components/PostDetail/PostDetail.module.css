@@ -1,0 +1,48 @@
+.postDetail {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 1100px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .title {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .body {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .backLink {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .backLink:hover {
+    background-color: #0056b3;
+  }
+  
+  .loading, .error, .notFound {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .notFound {
+    color: #333;
+  }
+  
